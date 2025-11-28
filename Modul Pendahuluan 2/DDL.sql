@@ -1,5 +1,3 @@
--- sql
-
 CREATE DATABASE HorizonAir;
 USE HorizonAir;
 
@@ -146,4 +144,5 @@ ALTER TABLE Bagasi MODIFY Jenis VARCHAR(50);
 ALTER TABLE Bandara ADD PRIMARY KEY (Kode_IATA);
 
 ALTER TABLE Penumpang DROP COLUMN email;
+
 
